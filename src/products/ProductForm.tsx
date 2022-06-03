@@ -18,7 +18,7 @@ const ProductForm: React.FC = () => {
         price: 0
     })
 
-    /* Read the data from the input filed  */
+    /* Read the data from the input filed - this method should always return a new state */
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => setProduct(prev => {
         /* grabing the value from the field and storing into prev */
         /* you could destructure the event =  {target: {name, value}}*/
